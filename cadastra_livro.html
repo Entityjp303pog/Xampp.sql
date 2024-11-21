@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrador de Livros</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Cadastrador de Livros</h1>
+    <p>Insira aqui os dados necessários para cadastrar um livro na biblioteca</p>
+    <form action="cadastra_livro.php" method="POST">
+
+        
+        <label for="Nome">Titulo</label>
+        <input type="text" name="Nome">
+        <br><br>
+
+        <label for="Autor">Autor</label>
+        <input type="text" name="Autor">
+        <br><br>
+
+        <label for="Genero">Genero principal(apenas um)</label>
+        <input type="text" name="Genero">
+        <br><br>
+
+        <label for="Dat_pub">Data de publicação</label>
+        <input type="date" name="Dat_pub">
+        <br><br>
+
+        <label for="Sinopse">Sinopse</label>
+        <input type="text" name="Sinopse">
+
+   
+        <br><br>
+
+        <input type="submit" value="enviar" style="width: 100px;">
+    </form>
+    <br><br>
+    <a href="Index.html"><button>Retornar ao Gerenciador</button></a>
+</body>
+</html>

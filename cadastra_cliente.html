@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrador de clientes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>   
+  
+    <h1>Cadastrador de Clientes</h1>
+        <p>Aqui você adiciona os dados de um cliente para realizar o seu cadastro</p>
+        <form action="cadastra_cliente.php" method="post">
+
+            <label for="Nome">Nome</label>
+            <input type="text" name="Nome">
+            <br><br>
+
+            <label for="CPF">CPF</label>
+            <input type="number" name="CPF">
+            <br><br>
+
+            <label for="Email">E-mail</label>
+            <input type="text" name="Email">
+            <br><br>
+
+            <label for="Dat_nasc">Data de Nascimento</label>
+            <input type="date" name="Dat_nasc">
+            <br><br>
+
+            <label for="CEP">CEP</label>
+            <input type="number" name="CEP">
+            <br><br>
+
+            <label for="Tel">Num. de Telefone("819" incluso)</label>
+            <input type="number" name="Tel">
+       
+            <br><br>
+
+            <input type="submit" value="enviar" style="width: 100px;">
+
+        </form>
+        <br><br>
+        <a href="Index.html"><button>Retornar ao Gerenciador</button></a>
+
+</body>
+</html>
